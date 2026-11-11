@@ -1,0 +1,12 @@
+# Core (needed to generate messages and to score results)
+torch>=2.1
+transformers>=4.45
+peft>=0.13
+rouge-score>=0.1.2
+
+# Tests
+pytest>=7
+
+# Only needed to re-run the Colab notebook (data download and charts)
+datasets>=2.19
+matplotlib>=3.7

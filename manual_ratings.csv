@@ -1,0 +1,31 @@
+id,label,model_message,real_message_first_line
+1,O,Update pytest requirement to <I>,"pin pytest version =>3,<4"
+2,O,Fix bug in GafReader.__init__,allow for instantiating gafobj once and reading many gaf files.
+3,G,Removed setuptools from requirements,Removed setuptools from install_requires to unbreak pip install -t
+4,G,Support iterating over multiple keys at once,"make OrderedSet.index take a list, performing the inverse of __getitem__"
+5,G,Fix release notes writer to handle labels properly,Minor improvements to release notes formatting
+6,G,Use __version__ instead of getVersion(),fix(setup): fix package version lookup
+7,G,Fix daemonization of startservers.py,"Fix ""main process kept alive forever by ToSServerThread."""
+8,W,Fix typo in test,Fixed assertion bug
+9,O,Fix test_pdb.py (#<I>),tests: check: only skip re.match with prompts actually (#<I>)
+10,W,Fixed bug where show_url was not working,Request has been in context since <I>
+11,G,Added methods to get image urls,"Added methods for pull the image urls by page, with 1 being the default"
+12,O,Fixed bug where days off were not being respected,Update rockstar
+13,G,Fix array value size calculation,fix: add <I> bytes to size of Bytes and String for `parser` compatibility
+14,O,Bumped version to <I>.,Bumped version <I> -> <I>
+15,O,fix: fix bug in fetching emails from imap server,fixing error where str where expected but bytes are given
+16,O,fix bug in simpleuri.py,"only parse query string if ""="" is expected"
+17,O,Fix casting errors in schema,Report schema casting errors with `CastError`
+18,G,Add support for true and false in constraints,Added boolean entries to normalize values.
+19,O,Fix bug in `Info` class,revised Info class implementation (generate __init__ for derived class with base class's annotations)
+20,O,Fixed bug where dates were not being parsed correctly,Rename startdate and enddate fields to start_date and end_date (fixes #<I>)
+21,W,Added some comments about the setup instructions,"Touch up stackato setup_instructions, actually print them, switch main"
+22,O,Fix bug in generate-exports.py,Only require things that start with a capital letter
+23,O,Fixes #<I>. Removed unnecessary imports,Try to fix small namespace bug in utils.
+24,G,Fixing test script to use tab id from data file,#<I> Fix a regression introduced - wrong tab selection
+25,O,Fix bug where sharing was not working,Changes for ambassadors lab class.
+26,O,Fix bug where headers were not being saved when using live resources,Fix TypeError: None is not iterable
+27,O,Fix examples_pairwise_ttests.py (#<I>),added print_table to pairwise_ttests
+28,G,Add python 3.6 to supported versions,added python <I> support
+29,O,Fix tests to work in development mode,Add unit test for local resouces in dev
+30,O,Removed unused num_classes route,"Dynamically compute num_classes, add to root endpoint"
