@@ -1,0 +1,8 @@
+test_set,method,rougeL_full,rougeL_first_line,zero_scores,n
+test1,baseline,0.076,0.087,124,200
+test1,prompted,0.148,0.158,43,200
+test1,finetuned_v1,0.193,0.209,51,200
+test2,baseline,0.082,0.095,126,200
+test2,prompted,0.167,0.176,41,200
+test2,finetuned_v1,0.196,0.207,53,200
+test2,finetuned_v2,0.193,0.203,51,200
