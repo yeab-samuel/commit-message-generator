@@ -4,12 +4,12 @@ A small tool that reads a **git diff** (a code change) and suggests a **one-line
 Course project 1 for *Selected Topics in Software Engineering: Transformers and Reinforcement Learning* (Addis Ababa University).
 
 - **Demo video:** https://drive.google.com/file/d/1zScUs1kHW4vQi9x4vWvsIK0cNRjuE_2a/view?usp=sharing
-**Team:**
+-**Team:**
 
-- Yeabsira Samuel — ATE/9305/14
-- Natnael Nigatu — ATE/7495/14
-- Kassahun Belachew — ATE/8400/14
-- Natnael Yohannes — ATE/0038/14
+      - Yeabsira Samuel — ATE/9305/14
+      - Natnael Nigatu — ATE/7495/14
+      - Kassahun Belachew — ATE/8400/14
+      - Natnael Yohannes — ATE/0038/14
 
 ## The problem and the user
 
